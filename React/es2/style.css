@@ -1,0 +1,87 @@
+html, body, #root{
+  
+    height: 100%;
+    margin: 50px;
+}
+
+header {
+    width: 640px;
+    height: 91px;
+    background-color: #21222a;
+    padding-top:20px;
+}
+nav { 
+    width: 158px;
+    height: 28.93px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left:5px;
+}
+
+.img-logo{
+
+    width: 28.93px;
+    height:  28.93px;
+    margin-top: 31px;
+    margin-left: 26px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 5px;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 22.25px;
+    Line-height: 100%;
+    letter-spacing: -5%;
+    color : #61dafb;
+
+}
+
+main{
+    background-color:#282d35;
+    width: 640px;
+    height:  400px;
+}
+
+.subtitle{
+    margin: 0px;
+    font-family: inter;
+    font: weight 700px;
+    color:#ffffff;
+    size: 39.06px;
+    Line-height: 100%;
+    letter-spacing: -5%;
+    padding-top: 40px;
+    padding-left: 20px;
+    
+}
+
+ul{
+    padding-top:20px;
+    padding-left: 55px;
+}
+
+li{
+    color: #ffffff;
+    font-family: inter;
+    font: weight 400px;
+    size: 16px;
+    Line-height: 100%;
+    letter-spacing: 0%;
+    padding-top:16px;
+    padding-left: 8px;
+    
+}
+
+li::marker{
+    color :#61dafb;
+}
+
+.react-logo2{
+
+    position :absolute;
+    top: 280px;
+    left: 655px
+}

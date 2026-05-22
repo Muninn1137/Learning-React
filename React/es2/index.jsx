@@ -1,7 +1,7 @@
 import {createRoot} from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
 
-root.render(
+import App from "./Components/App"
+import "./style.css"
 
- <p>es2</p> 
-)
+root.render(<App/>)
