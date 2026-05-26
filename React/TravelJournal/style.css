@@ -1,0 +1,39 @@
+html, body, #root {
+    height: 100%;    /* Riportalo a 100% così non sballa il layout */
+    margin: 0;       /* Corretto da 20 a 0 per azzerare i bordi bianchi */
+    padding: 0;
+}
+
+.header {
+    background-color:#F55A5A;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 10px
+}
+
+.globe{
+    height: 24px;
+    width: 24px;
+}
+
+header > h1{
+    color : white;
+    font-size: 0.9rem;
+    font-weight:600;
+}
+
+.mainContent{
+    display:flex;
+}
+
+.sideImage{
+    width: 125px;
+    height: 168px;
+}
+
+.marker{
+    width: 7px;
+    height: 9.55px;
+}
+
